@@ -1,0 +1,169 @@
+# ================================================================
+# .gitignore - Trabalho Prático IBD
+# Arquivo para ignorar arquivos desnecessários no Git
+# ================================================================
+
+# Arquivos do Sistema Operacional
+
+# Windows
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+*.stackdump
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Linux
+*~
+.directory
+.Trash-*
+
+# IDEs e Editores
+# ----------------------------------------------------------------
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# PyCharm / IntelliJ
+.idea/
+*.iml
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+[._]*.s[a-v][a-z]
+[._]*.sw[a-p]
+[._]s[a-rt-v][a-z]
+[._]ss[a-gi-z]
+[._]sw[a-p]
+
+# Arquivos Temporários e de Backup
+# ----------------------------------------------------------------
+
+# Arquivos temporários gerais
+*.tmp
+*.temp
+*.bak
+*.backup
+*.old
+*~
+
+# Logs
+*.log
+logs/
+*.log.*
+
+# Dados Sensíveis (NÃO COMMITAR)
+# ----------------------------------------------------------------
+
+# Arquivos de configuração com senhas
+config.ini
+secrets.json
+.env
+.env.local
+
+# Backups de banco de dados
+*.sql.gz
+*.dump
+backup/
+backups/
+
+# Arquivos Grandes (usar Git LFS se necessário)
+# ----------------------------------------------------------------
+
+# CSVs muito grandes (>100MB) - usar Git LFS
+# Descomente se tiver arquivos muito grandes:
+# *.csv filter=lfs diff=lfs merge=lfs -text
+
+# Arquivos de Build e Cache
+# ----------------------------------------------------------------
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+ENV/
+env/
+.venv
+
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Java
+*.class
+*.jar
+target/
+
+# Arquivos Específicos do Projeto
+# ----------------------------------------------------------------
+
+# Arquivos temporários de processamento
+/data/temp/
+/data/processed_temp/
+
+# Exportações temporárias
+exports/
+output/
+
+# Rascunhos e testes
+rascunhos/
+drafts/
+test_*.sql
+
+# Documentos em Edição (Word, Excel, etc)
+# ----------------------------------------------------------------
+
+# Arquivos temporários do Microsoft Office
+~$*.doc*
+~$*.xls*
+~$*.ppt*
+*.tmp
+
+# Versões antigas de documentos
+*_old.*
+*_backup.*
+*_v[0-9].*
+
+# Git
+# ----------------------------------------------------------------
+
+# Patches
+*.patch
+*.diff
+
+# PostgreSQL
+# ----------------------------------------------------------------
+
+# Arquivos de configuração local do PostgreSQL
+pg_hba.conf.local
+postgresql.conf.local
+
+# Dumps temporários
+*.pgdump
+
+# Outros
+# ----------------------------------------------------------------
+
+# Arquivos compactados temporários
+*.zip
+*.rar
+*.7z
+*.tar.gz
+
+# Arquivos de imagem temporários
+*_temp.png
+*_temp.jpg
+*_draft.*

@@ -1,0 +1,15 @@
+Tabela;Coluna;Tipo;Descrição;Fonte;Data de obtenção;Órgão Produtor;Cobertura geográfica;Limitações
+populacao_municipal_2024;uf;VARCHAR(2);Sigla da unidade federativa;IBGE;out/25;IBGE;Todos os estados e DF;Nenhuma
+populacao_municipal_2024;cod_uf;INTEGER;Código numérico da UF;IBGE;out/25;IBGE;Nacional;Nenhuma
+populacao_municipal_2024;cod_munic;INTEGER;Código numérico do muinicípio;IBGE;out/25;IBGE;Nacional;Nenhuma
+populacao_municipal_2024;codigo_municipio_ibge;CHAR(7);Código completo IBGE (2+5 dí­gitos);IBGE;out/25;IBGE;Nacional;Chave primária
+populacao_municipal_2024;nome_do_municipio;VARCHAR(80);Nome oficial do município;IBGE;out/25;IBGE;Nacional;Pequenas divergências possí­veis
+populacao_municipal_2024;populacao_estimada;INTEGER;População estimada em 2024;IBGE;out/25;IBGE;Nacional;Estimativa, não censo
+frota_municipal_2024;uf;VARCHAR(2);Sigla da unidade federativa;SENATRAN;out/25;SENATRAN;Todos os estados e DF;Nenhuma
+frota_municipal_2024;municipio;VARCHAR(80);Nome do municí­pio conforme base SENATRAN;SENATRAN;out/25;SENATRAN;Nacional;44 divergências corrigidas
+frota_municipal_2024;codigo_municipio_ibge;CHAR(7);Código IBGE adicionado após integração;SENATRAN/IBGE;out/25;SENATRAN/IBGE;Nacional;Chave estrangeira
+frota_municipal_2024;total;INTEGER;Total de veí­culos registrados;SENATRAN;out/25;SENATRAN;Nacional;Nenhuma
+frota_municipal_2024;automovel;INTEGER;Quantidade de automóveis;SENATRAN;out/25;SENATRAN;Nacional;Nenhuma
+frota_municipal_2024;motocicleta;INTEGER;Quantidade de motocicletas;SENATRAN;out/25;SENATRAN;Nacional;Nenhuma
+frota_municipal_2024;caminhao;INTEGER;Quantidade de caminhões;SENATRAN;out/25;SENATRAN;Nacional;Nenhuma
+frota_municipal_2024;onibus;INTEGER;Quantidade de ônibus;SENATRAN;out/25;SENATRAN;Nacional;Nenhuma
